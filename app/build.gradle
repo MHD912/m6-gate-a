@@ -56,4 +56,5 @@ dependencies {
     implementation 'com.google.guava:guava:' + versions.guava
     testImplementation 'junit:junit:' + versions.junit
     testImplementation 'org.apache.commons:commons-text:1.8'
+    testImplementation project(path: ':app')
 }
